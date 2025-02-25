@@ -1,39 +1,13 @@
-import Vue from 'vue';
-import Router from 'vue-router';
-import Home from '@/views/Home.vue';
-import About from '@/views/About.vue';
-import Services from '@/views/Services.vue';
-import News from '@/views/News.vue';
-import Contact from '@/views/Contact.vue';
-
-Vue.use(Router);
-
-export default new Router({
-  routes: [
-    {
-      path: '/',
-      name: 'Home',
-      component: Home
-    },
-    {
-      path: '/about',
-      name: 'About',
-      component: About
-    },
-    {
-      path: '/services',
-      name: 'Services',
-      component: Services
-    },
-    {
-      path: '/news',
-      name: 'News',
-      component: News
-    },
-    {
-      path: '/contact',
-      name: 'Contact',
-      component: Contact
-    }
-  ]
-});
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的网站</title>
+</head>
+<body>
+    <div id="app"></div>
+    <!-- 引入 Vue.js 和项目打包后的文件 -->
+    <script src="/dist/js/app.js"></script>
+</body>
+</html>
