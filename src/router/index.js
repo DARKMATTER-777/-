@@ -1,24 +1,24 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import HomePage from '@/components/HomePage'
-import AboutUs from '@/components/AboutUs'
-import Services from '@/components/Services'
-import News from '@/components/News'
-import ContactUs from '@/components/ContactUs'
+import Vue from 'vue';
+import Router from 'vue-router';
+import Home from '@/views/Home.vue';
+import About from '@/views/About.vue';
+import Services from '@/views/Services.vue';
+import News from '@/views/News.vue';
+import Contact from '@/views/Contact.vue';
 
-Vue.use(Router)
+Vue.use(Router);
 
 export default new Router({
   routes: [
     {
       path: '/',
-      name: 'HomePage',
-      component: HomePage
+      name: 'Home',
+      component: Home
     },
     {
       path: '/about',
-      name: 'AboutUs',
-      component: AboutUs
+      name: 'About',
+      component: About
     },
     {
       path: '/services',
@@ -32,8 +32,8 @@ export default new Router({
     },
     {
       path: '/contact',
-      name: 'ContactUs',
-      component: ContactUs
+      name: 'Contact',
+      component: Contact
     }
   ]
-})
+});
