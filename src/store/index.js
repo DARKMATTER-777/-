@@ -5,10 +5,10 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
-    // 全局状态
+    // 状态数据
   },
   mutations: {
-    // 同步修改状态的方法
+    // 修改状态的方法
   },
   actions: {
     // 异步操作

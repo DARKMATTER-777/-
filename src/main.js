@@ -10,3 +10,4 @@ new Vue({
   store,
   render: h => h(App)
 }).$mount('#app');
+// Below is the code of d:\my-vue-app\src\App.vue:
