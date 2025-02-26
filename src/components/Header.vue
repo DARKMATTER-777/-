@@ -21,7 +21,7 @@ export default {
 header {
   text-align: center;
   padding: 20px;
-  background-color: #f8f9fa;
-  border-bottom: 1px solid #e9ecef;
+  background-color: #b3d7fa;
+  border-bottom: 1px solid #2b83da;
 }
 </style>
